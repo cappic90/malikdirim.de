@@ -12540,6 +12540,11 @@ pkg-up@^2.0.0:
   dependencies:
     find-up "^2.1.0"
 
+plausible-tracker@^0.3.1:
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/plausible-tracker/-/plausible-tracker-0.3.1.tgz#dd4e1f59cafc7bf1b00e30890567287b3f204efd"
+  integrity sha512-oXnVyfTF2gzkfK3iOZCRZEnf8sH4gBASaJhY+clwWW1orIybfQpfbgg4U5Bwj5dW/4iNstM4tx4jMCVUfMCUbg==
+
 pluralize@^7.0.0:
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/pluralize/-/pluralize-7.0.0.tgz#298b89df8b93b0221dbf421ad2b1b1ea23fc6777"
@@ -16575,6 +16580,13 @@ vue-particles@^1.0.9:
   dependencies:
     particles.js "^2.0.0"
     vue "^2.2.6"
+
+vue-plausible@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/vue-plausible/-/vue-plausible-1.2.1.tgz#66ceb925a98ecca715a11c3c77e1e11b8f0945fc"
+  integrity sha512-+HIO35sHLPMtpSzyQSjGUFQUmqHXHas5kQ/XSdowS6z8FryfP/uyPURUT1hoXK217DD2w7EbZqjs59TDcHhcEw==
+  dependencies:
+    plausible-tracker "^0.3.1"
 
 vue-router@^3.5.1:
   version "3.5.1"

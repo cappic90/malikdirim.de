@@ -114,7 +114,7 @@ export default {
     '@aceforth/nuxt-optimized-images',
     'nuxt-compress'
   ],
-  modules: ['@nuxtjs/robots', '@nuxtjs/sitemap', 'nuxt-i18n'],
+  modules: ['@nuxtjs/robots', '@nuxtjs/sitemap', 'nuxt-i18n', 'vue-plausible'],
   /**
    * https://github.com/nuxt-community/eslint-module
    */
@@ -194,5 +194,8 @@ export default {
         name: 'English'
       }
     ]
+  },
+  plausible: {
+    domain: 'malikdirim.de'
   }
 }
