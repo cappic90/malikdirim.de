@@ -13,16 +13,16 @@ export default {
    * https://nuxtjs.org/blog/moving-from-nuxtjs-dotenv-to-runtime-config/
    */
   publicRuntimeConfig: {
-    appName: process.env.APP_NAME,
+    appName: 'malikdirim.de',
     address: {
-      name: process.env.ADDRESS_NAME || 'Malik Dirim',
-      street: process.env.ADDRESS_STREET || 'Heerstr. 454',
-      city: process.env.ADDRESS_CITY || '13593 Berlin',
-      country: process.env.ADDRESS_COUNTRY || 'Germany'
+      name: 'Malik Dirim',
+      street: 'Heerstr. 454',
+      city: '13593 Berlin',
+      country: 'Germany'
     },
     emails: {
-      imprint: process.env.EMAIL_IMPRINT || 'impressum@malikdirim.de',
-      privacy: process.env.EMAIL_PRIVACY || 'datenschutz@malikdirim.de'
+      imprint: 'impressum@malikdirim.de',
+      privacy: 'datenschutz@malikdirim.de'
     }
   },
   privateRuntimeConfig: {},

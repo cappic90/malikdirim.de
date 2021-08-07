@@ -1,0 +1,12 @@
+
+[dev]
+   base = "frontend/"
+   command = "yarn dev"
+
+[build]
+   base = "frontend/"
+   publish = "dist"
+   command = "yarn generate"
+
+[functions]
+  directory = "functions/"
