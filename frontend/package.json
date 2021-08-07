@@ -17,7 +17,8 @@
   },
   "dependencies": {
     "nuxt": "^2.15.7",
-    "snyk": "^1.676.0"
+    "snyk": "^1.676.0",
+    "vue-plausible": "^1.2.1"
   },
   "devDependencies": {
     "@aceforth/nuxt-optimized-images": "^1.4.0",
